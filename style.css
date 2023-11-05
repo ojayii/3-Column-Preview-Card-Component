@@ -1,0 +1,115 @@
+body, html {
+    margin: 0;
+}
+.container {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.can {
+    width: 86%;
+    height: 350px;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+#can1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#can2 {
+    background-color: hsl(184, 100%, 22%);
+}
+#can3 {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+p {
+    font-family: 'Big Shoulders Display' , sans-serif;
+    font-size: 35px;
+    color: white;
+}
+h5 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    max-width: 70%;
+    color: white;
+}
+.button {
+    width: 40%;
+    height: 45px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#can1 > .button > a {
+    color: hsl(31, 77%, 52%);
+}
+#can2> .button > a {
+    color: hsl(184, 100%, 22%);
+}
+#can3 > .button > a {
+    color: hsl(179, 100%, 13%);
+}
+.button > a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Lexend Deca', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: auto;
+}
+p, h5, .button, img { margin-left: 15%;}
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: black; 
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 700px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .can {
+        width: 250px;
+        height: 370px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #can1 {
+        background-color: hsl(31, 77%, 52%);
+        border-top-right-radius: 0px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    #can2 {
+        background-color: hsl(184, 100%, 22%);
+    }
+    #can3 {
+        background-color: hsl(179, 100%, 13%);
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    p {
+        font-size: 30px;
+    }
+    h5 {
+        font-size: 13px;
+    }
+    .button {
+        width: 120px;
+        border-radius: 50px;
+        background-color: white;
+        margin-top: 70px;
+    }
+}
