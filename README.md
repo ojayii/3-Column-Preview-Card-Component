@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://github.com/ojayii/3-column-preview-card-component)
 
 ## My process
 
@@ -79,5 +79,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Ogelenya Joseph](https://github.com/OjayII)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ojayii)
+- Website - [Ojay](https://github.com/OjayII)
+- Frontend Mentor - [@OjayII](https://www.frontendmentor.io/profile/ojayii)
